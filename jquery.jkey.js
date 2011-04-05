@@ -189,7 +189,7 @@
 		var keyCodesSwitch = swapJsonKeyValues(keyCodes);
 			
 		return this.each(function() {
-			$this = $(this);
+			var $this = $(this);
 			
 			// Create active keys array
 			// This array will store all the keys that are currently being pressed
